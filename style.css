@@ -2,3 +2,94 @@
 
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    animation: zoom 25s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.barra {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+
+}
+
+.barra a {
+    color: rgb(179, 113, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+@keyframes moveBanner {
+    0% {
+        transform: translateY(10rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes moveSubtitle {
+    0% {
+        transform: translateY(10rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+.redesocial {
+    position: absolute;
+    right: 2%;
+    top: 30%;
+}
+
+.redesocial img {
+    display: block;
+    width: 40px;
+    margin: 10px 0;
+}

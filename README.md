@@ -1,5 +1,6 @@
 # site_zenjo
 Criação do site Zenjo
+Usando imaginação, criatividade e ousadia para se aventurar!
 
 
 ## Tarefas
